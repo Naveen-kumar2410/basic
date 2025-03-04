@@ -1,8 +1,6 @@
-body{
-    margin-top: none;
-    padding: none;
-    height: 100%;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -11,6 +9,7 @@ body{
     padding: 2px;
     color: black;
     justify-content: center;
+    margin-bottom:10px;
 }
 ul li{
     display:inline-block;
@@ -19,4 +18,25 @@ ul{
     display: flex;
     gap:50px;
     margin-left:500px;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 15px;
+}
+
+.top-navbar{
+    display: flex;
+}
+
+button {
+    width: 100px;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.hero-page{
+    display: flex;
+    padding: 20x;
+    margin-top: 15%;
 }
