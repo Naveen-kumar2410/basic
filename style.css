@@ -1,0 +1,22 @@
+body{
+    margin-top: none;
+    padding: none;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+    color: black;
+    justify-content: center;
+}
+ul li{
+    display:inline-block;
+}
+ul{
+    display: flex;
+    gap:50px;
+    margin-left:500px;
+}
