@@ -180,6 +180,9 @@ body {
 .name-txt{
     display: flex;
     gap: 10px;
+    align-items: center;
+   
+    padding: 1px;
    
     
 }
@@ -191,8 +194,11 @@ body {
 
 .meet{
     padding:5px 5px;
-    background-color: #d4d6e0;
+    background-color:white;
     width: fit-content;
+    margin-top: 45px;
+    
+
     
 }
 
@@ -205,4 +211,46 @@ body {
     display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 1px 12px;
+   background-color:rgba(235, 231, 231, 0.485);
+   height: 60px;
+   width: 296px;
+}
+
+
+
+.bt button{
+    background-color: #4C6EF5;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+
+.cont-1 p{
+    padding:10px 8px ;
+    background-image: linear-gradient(90deg, #d2770738, #F8F8F83D);
+}
+
+.star button{
+    background-color: green;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+   border-radius: 4px;
+   padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    
+
+}
+
+.txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    align-items: center;
 }
